@@ -42,7 +42,8 @@
         </p>
 
         <form class="form-container">
-          <input type="email" name="email" id="email" placeholder="Enter your email...">
+          <input type="email" name="email" id="email" placeholder="Enter your email..." required 
+          pattern="[A-Za-z0-9~!#$%^&*()_|+\-=?]+@[A-Za-z]+\.[a-z]{2,}" title="Please check your email">
           <input type="submit" value="Get Started" class="btn">
         </form>
       </div>
@@ -98,7 +99,8 @@
       </div>
 
       <form class="form-container access-form">
-        <input type="email" name="email" id="example" placeholder="email@example.com">
+        <input type="email" name="email" id="example" placeholder="email@example.com" required 
+        pattern="[A-Za-z0-9~!#$%^&*()_|+\-=?]+@[A-Za-z]+\.[a-z]{2,}" title="Please check your email">
         <input type="submit" value="Get Started For Free" class="btn free">
       </form>
     </div>
